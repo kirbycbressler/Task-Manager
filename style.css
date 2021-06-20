@@ -1,0 +1,72 @@
+main{
+  display: flex;
+  background-color: skyblue;
+}
+
+#list{
+  flex: 4;
+}
+#captureForm{
+  flex: 3;
+  background: blue;
+}
+h1{
+  color: gold;
+  text-transform: uppercase;
+  text-align: center; 
+}
+.task {
+  display: flex;
+}
+.task .important{
+  flex:1
+}
+.task .due-date{
+  flex:2
+}
+.task .description{
+  flex:3
+}
+.gold{
+  color: gold;
+}
+
+label{
+  text-decoration: underline gold;
+  color: white;
+  border-top: solid gold;
+  border-bottom: blue solid;
+  border-radius: 20px;
+  background-color: indigo;
+  padding: 5px;
+}
+option:hover{
+  color: orange;
+}
+.control input {
+  border: 3px solid  indigo;
+}
+.control textarea{
+  border: 3px solid indigo;
+}
+.control select{
+  border: 3px solid indigo;
+}
+.control label{
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+#captureForm{
+  border: solid 1px black;
+  padding: 5px;
+}
+#btnSave{
+  background-color: gold;
+  border: indigo solid 3px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.check-box{
+  display: none;
+}
