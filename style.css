@@ -6,9 +6,22 @@ main{
 #list{
   flex: 4;
 }
-#captureForm{
+#captureForm {
   flex: 3;
-  background: blue;
+  background-image: url("/img/task-bg1.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  border: solid 1px black;
+  padding: 5px;
+}
+#displayForm {
+  flex: 3;
+  background-image: url("/img/task-bg1.jpg");
+  background-size: cover;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: solid 1px black;
+  padding: 5px;
 }
 h1{
   color: gold;
@@ -25,7 +38,7 @@ h1{
   flex:2
 }
 .task .description{
-  flex:3
+  flex:5
 }
 .gold{
   color: gold;
@@ -56,10 +69,7 @@ option:hover{
   margin-top: 10px;
   margin-bottom: -10px;
 }
-#captureForm{
-  border: solid 1px black;
-  padding: 5px;
-}
+
 #btnSave{
   background-color: gold;
   border: indigo solid 3px;
